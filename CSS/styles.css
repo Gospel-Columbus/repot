@@ -50,21 +50,8 @@
 }
 
 
-@media screen and (max-width:1440px) {
-.design-one .design-two .design-three {
-  font-size:15px;
-}
-  
-}
 
 
-@media screen and (min-width:375px) {
-.design-one .design-two .design-three {
-  font-size:15px;
-}
-
-  
-}
 
 .btn-one {
     background: #f7fcff;
@@ -159,4 +146,48 @@
     background-image: -o-linear-gradient(top, #fcfeff, #e9f0f5);
     background-image: linear-gradient(to bottom, #fcfeff, #e9f0f5);
     text-decoration: none;
+  }
+
+
+
+
+  @media (max-width:1440px) {
+
+    .design-one {
+
+    width: 250px;
+    height: 400px;
+
+    }
+
+    .design-two {
+      width:250px;
+      height:380px;
+      
+    }
+
+    .design-three {
+      width:250px;
+      height:400px;
+      
+    }
+
+  }
+
+
+  @media (max-width:375px) {
+
+    .design-one {
+      width:100%;
+    }
+
+    .design-two {
+      width:100%;
+    }
+
+    .design-three {
+      width:100%;
+    }
+
+
   }
